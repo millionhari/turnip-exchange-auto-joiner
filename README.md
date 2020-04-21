@@ -4,7 +4,7 @@ This script will auto-join rooms in turnip.exchange.
 Instructions
 ============
 - Pick a room on https://turnip.exchange/islands
-- Open the dev console (cmd + shift + j) and paste in the `turnip-exchange-auto-joiner.js` code
+- Open the Chrome dev console (cmd + option + j on Mac and ctrl + shift + j on Windows) and paste in the `turnip-exchange-auto-joiner.js` code
 - Replace the `IN_GAME_NAME` AND `ISLAND_NAME` constants with your Animal Crossing in-game-name and island name
 - Press enter and let the script do its work
 
