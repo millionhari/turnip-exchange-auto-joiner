@@ -5,7 +5,7 @@ Instructions
 ============
 - Pick a room on [turnip.exchange/islands](https://turnip.exchange/islands)
 - Open the Chrome dev console (cmd + option + j on Mac and ctrl + shift + j on Windows) and paste in the `turnip-exchange-auto-joiner.js` code
-- Replace the `IN_GAME_NAME` AND `ISLAND_NAME` constants with your Animal Crossing in-game-name and island name
+- Replace the `IN_GAME_NAME` AND `ISLAND_NAME` constants on lines 1 and 2 with your Animal Crossing in-game-name and island name
 - Press enter and let the script do its work
 
 Recommendations
