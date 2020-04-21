@@ -1,23 +1,23 @@
-const IN_GAME_NAME = 'Hari';
-const ISLAND_NAME = 'Townsville'
+const IN_GAME_NAME = 'REPLACE_THIS_WITH_YOUR_AC_IN_GAME_NAME';
+const ISLAND_NAME = 'REPLACE_THIS_WITH_YOUR_AC_TOWN_NAME';
 
 const options = {
   name: IN_GAME_NAME,
   islandID: ISLAND_NAME,
   theme: 'light',
-  turnipCode: 'd3012ebc',
+  turnipCode: '',
   hostedTurnipCode:null,
   hasSeenDisclaimer:true,
-  lastDingSoundTurnipCode: 'a76841d2',
+  lastDingSoundTurnipCode: '',
   seenMerch: true
-}
-
-const setIntervalJoinQueue = setInterval(joinQueue, 50);
+};
 
 // Set localStorage settings
 ((options) => {
   window.localStorage['turnip-storage'] = JSON.stringify(options);
 })(options)
+
+const setIntervalJoinQueue = setInterval(joinQueue, 50);
 
 function joinQueue() {
   // Clear Announcement
